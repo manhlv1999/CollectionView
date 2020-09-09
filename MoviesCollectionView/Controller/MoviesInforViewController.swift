@@ -5,7 +5,7 @@ class MoviesInforViewController: UIViewController {
     var imageView: UIImageView = {
         var imageview = UIImageView()
         imageview.clipsToBounds = true
-        //imageview.contentMode = .scaleAspectFit
+        imageview.contentMode = .scaleAspectFit
         imageview.image = UIImage(named: "icon_spiderman")
         imageview.heightAnchor.constraint(equalToConstant: 200).isActive = true
         imageview.translatesAutoresizingMaskIntoConstraints = false
